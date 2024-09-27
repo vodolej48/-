@@ -1,6 +1,6 @@
 immutable_var = tuple([1,3,5,'string', False,[1,3,5]])
-print(type(immutable_var))
 print(immutable_var)
+print(type(immutable_var))
 mutable_list = [1,3,5,'string', False,[1,3,5]]
 print(mutable_list)
 print(type(mutable_list))
