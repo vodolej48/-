@@ -1,8 +1,7 @@
 my_dict = {'serg':35,'alina':46,'denis':57}
 print(my_dict)
 print(my_dict ['alina'])
-my_dict ['taya'] = 68
-print(my_dict)
+print(my_dict.get('taya'))
 my_dict.update ({'anton':79,'sacha':90})
 print(my_dict)
 a =  my_dict.pop('alina')
