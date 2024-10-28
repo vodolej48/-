@@ -1,31 +1,14 @@
-# phone_book = { 'serg' : 89202410238, 'taya': 89205094341 }
-# phone_book['serg'] = 13
-# phone_book['anton'] = 8596
-# phone_book.update({'sasha': 678,'alex': 890})
-# print(phone_book)
-# a = phone_book.pop('taya')
-# print(phone_book)
-# print(a)
-# list_ = [1,2,3]
-# list_.pop(0)
-# print(list_)
-# print(phone_book.keys())
-# print(phone_book.values())
-# print(phone_book.items())
-names = [1, 2, 3, 5, 6, -3, 4, -2]
-index = 0
-while index < len(names):
-    if names[index] < 0:
-        break
-    elif names[index] > 0:
-        print(names)
-        index +=1
-
-
-
-
-
-
-
-
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+primes_ = []
+not_primes = []
+for num in numbers:
+    if num > 1:
+        for i in range(2,num):
+            if (num % i) == 0:
+                not_primes.append(num)
+                break
+        else:
+            primes_.append(num)
+print('Primes', primes_)
+print('Not Primes', not_primes)
 
